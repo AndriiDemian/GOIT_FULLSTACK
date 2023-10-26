@@ -1,6 +1,0 @@
-body {
-    background-image: url('oboi-frogs-lyagushki-310822-15.jpg');
-    width 400px;/* Растянуть картинку, чтобы заполнить весь элемент */
-    background-repeat: no-repeat; /* Не повторять картинку */
-    background-attachment: fixed; /* Зафиксировать фон при прокрутке (по желанию) */
-}
