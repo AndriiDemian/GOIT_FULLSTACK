@@ -167,8 +167,12 @@ ul {
 
 /* Footer */
 
-footer p {
-    color: #434455;
+.main-footer {
+    background-color: #2e2f42;
+}
+
+.title-footer {
+    color: #F4F4FD;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
