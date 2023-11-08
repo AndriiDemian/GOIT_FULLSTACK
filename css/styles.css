@@ -1,0 +1,171 @@
+body {
+    font-family: "Roboto", "Raleway", sans-serif;
+    color: #434455;
+}
+
+h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+}
+/* Ссылки */
+.link {
+    color: #2E2F42;
+    text-decoration: none;
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.32px;
+}
+
+.link:hover {
+    color: #404BBF;
+}
+
+.link:active {
+    color: #404BBF;
+    border-bottom: 4px solid;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Контакты */
+.contact {
+    color: #434455; 
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.contact:hover {
+    color: #404BBF;
+}
+
+.contact:focus {
+    color: #404BBF;
+}
+
+/* Кнопка */
+.offer-button {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    border: none;
+    cursor: pointer;
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;   
+}
+
+/* Скрытый текст */
+.advantages-none {
+    display: none;
+}
+
+/* Секция Advantages */
+
+.title-adv {
+    background-color: #2E2F42;
+    width: 1440px;
+    height: 600px;
+    flex-shrink: 0;
+}
+
+.advantages {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+.about-advntgs {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+/* Our Team */
+
+.title-our-team {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.card-team {
+
+}
+
+.card-team h3 {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+.card-team p {
+    color: #434455;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+/* Portfolio */
+
+.portfolio h2 {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.card-portfolio {
+}
+
+.card-portfolio h3 {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+.card-portfolio p {
+    color: #434455;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    font-size: 16px;
+}
+
+/* Footer */
+
+footer p {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
