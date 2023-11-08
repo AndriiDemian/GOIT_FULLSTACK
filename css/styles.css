@@ -1,6 +1,7 @@
 body {
     font-family: "Roboto", "Raleway", sans-serif;
     color: #434455;
+    background-color: #FFFFFF;
 }
 
 h1 {
@@ -11,7 +12,7 @@ h1 {
     line-height: 1.07;
     letter-spacing: 1.12px;
 }
-/* Ссылки */
+
 .link {
     color: #2E2F42;
     text-decoration: none;
@@ -36,7 +37,6 @@ ul {
     padding: 0;
 }
 
-/* Контакты */
 .contact {
     color: #434455; 
     font-size: 16px;
@@ -44,15 +44,11 @@ ul {
     letter-spacing: 0.32px;
 }
 
-.contact:hover {
-    color: #404BBF;
-}
-
+.contact:hover,
 .contact:focus {
     color: #404BBF;
 }
 
-/* Кнопка */
 .offer-button {
     background-color: #4D5AE5;
     color: #FFFFFF;
@@ -62,24 +58,15 @@ ul {
     letter-spacing: 0.64px;
     border: none;
     cursor: pointer;
-    display: inline-flex;
     padding: 16px 32px;
-    align-items: flex-start;
-    gap: 10px;   
 }
 
-/* Скрытый текст */
 .advantages-none {
     display: none;
 }
 
-/* Секция Advantages */
-
 .title-adv {
     background-color: #2E2F42;
-    width: 1440px;
-    height: 600px;
-    flex-shrink: 0;
 }
 
 .advantages {
@@ -97,8 +84,6 @@ ul {
     letter-spacing: 0.32px;
 }
 
-/* Our Team */
-
 .title-our-team {
     color: #2E2F42;
     text-align: center;
@@ -107,10 +92,6 @@ ul {
     line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
-}
-
-.card-team {
-
 }
 
 .card-team h3 {
@@ -130,8 +111,6 @@ ul {
     letter-spacing: 0.32px;
 }
 
-/* Portfolio */
-
 .portfolio h2 {
     color: #2E2F42;
     text-align: center;
@@ -140,9 +119,6 @@ ul {
     line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
-}
-
-.card-portfolio {
 }
 
 .card-portfolio h3 {
@@ -160,8 +136,6 @@ ul {
     letter-spacing: 0.32px;
     font-size: 16px;
 }
-
-/* Footer */
 
 footer p {
     color: #434455;
