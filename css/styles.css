@@ -4,6 +4,12 @@ body {
     background-color: #FFFFFF;
 }
 
+/* Addredd */
+
+.address-list {
+    font-style: normal;
+}
+
 h1 {
     color: #FFF;
     text-align: center;
@@ -179,6 +185,10 @@ ul {
 }
 
 /* Logo */
+
+.logo:focus {
+    color: #404bbf;
+}
 
 .logo {
     color: #4D5AE5;
